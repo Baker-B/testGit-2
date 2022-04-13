@@ -12,23 +12,31 @@
 10. git commit -m "comment"
 11. git log [--oneline]
 12. git push [repo_name] [branch_name]
-13.
+13. git remote set-url origin https://baker-b:[pass]@github.com/Baker-B/testGit-2.git
 14.
 
 # …or create a new repository on the command line
 
-echo "# testGit-2" >> README.md \n
+echo "# testGit-2" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/Baker-B/testGit-2.git
+
 git push -u origin main
 
 # …or push an existing repository from the command line
 
 git remote add origin https://github.com/Baker-B/testGit-2.git
+
 git branch -M main
+
 git push -u origin main
 
 # …or import code from another repository
