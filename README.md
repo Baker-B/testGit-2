@@ -17,7 +17,7 @@
 
 # …or create a new repository on the command line
 
-echo "# testGit-2" >> README.md
+echo "# testGit-2" >> README.md \n
 git init
 git add README.md
 git commit -m "first commit"
