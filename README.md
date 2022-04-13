@@ -13,7 +13,14 @@
 11. git log [--oneline]
 12. git push [repo_name] [branch_name]
 13. git remote set-url origin https://baker-b:[pass]@github.com/Baker-B/testGit-2.git
-14.
+14. git push --set-upstream origin master
+
+15. git reset index.html // remove file from stage area
+16. git stash // clear stage area
+
+17. git diff [file_name]
+
+18. git reset --hard
 
 # …or create a new repository on the command line
 
