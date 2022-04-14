@@ -20,7 +20,7 @@
 
 17. git diff [file_name]
 
-18. git reset --hard
+18. git reset --hard // clear stage area
 
 # …or create a new repository on the command line
 
